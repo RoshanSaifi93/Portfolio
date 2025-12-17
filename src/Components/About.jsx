@@ -4,12 +4,13 @@ const About = () => {
   return (
     <section id="about" className="about fade-in">
       <div className="about-container">
-        {/* Image animation */}
         <div className="about-image fade-left">
-          <img src="/profile.jpg" alt="Roshan Saifi" />
+          <img
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
+            alt="Roshan Saifi"
+          />
         </div>
 
-        {/* Content animation */}
         <div className="about-content fade-right">
           <h2>About Me</h2>
 
@@ -24,8 +25,9 @@ const About = () => {
           </p>
 
           <a
-            href="/Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Resume.pdf`}
             target="_blank"
+            rel="noopener noreferrer"
             className="btn primary"
           >
             View Resume

@@ -36,7 +36,7 @@ const Hero = () => {
 
         <div className="hero-buttons">
           <a
-            href="/Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Resume.pdf`}
             target="_blank"
             className="btn primary"
           >
@@ -46,6 +46,7 @@ const Hero = () => {
           <a
             href="https://github.com/RoshanSaifi93"
             target="_blank"
+            rel="noopener noreferrer"
             className="btn"
           >
             GitHub
