@@ -29,9 +29,15 @@
 
 .typing {
   font-size: 28px;
-  margin: 10px 0;
-  color: #94a3b8;
+  color: #38bdf8;
+  margin: 15px 0;
   animation: blink 1.5s infinite;
+  min-height: 32px; /* layout shift avoid */
+}
+
+.cursor {
+  margin-left: 4px;
+  animation: blink 1s step-end infinite;
 }
 
 .hero-left p {
@@ -98,7 +104,7 @@
 }
 
 @keyframes blink {
-  50% { opacity: 0.6; }
+  50% { opacity: 0; }
 }
 
 /* Responsive */
@@ -136,17 +142,6 @@
     width: 220px;
     height: 220px;
   }
-}
-
-.typing {
-  font-size: 28px;
-  color: #38bdf8;
-  margin: 15px 0;
-  min-height: 35px;
-}
-
-.cursor {
-  animation: blink 1s infinite;
 }
 
 @keyframes blink {
