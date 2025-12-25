@@ -16,7 +16,7 @@ const About = () => {
 
           <p>
             I am <span>Roshan Saifi</span>, a passionate Frontend Developer with
-            strong knowledge of HTML,CSS,JavaScript and React.
+            strong knowledge of HTML, CSS, JavaScript and React.
           </p>
 
           <p>
