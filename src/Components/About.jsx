@@ -15,8 +15,8 @@ const About = () => {
           <h2>About Me</h2>
 
           <p>
-            I am <span>Roshan Saifi</span>, a passionate React Developer with
-            strong knowledge of JavaScript, HTML, and CSS.
+            I am <span>Roshan Saifi</span>, a passionate Frontend Developer with
+            strong knowledge of HTML,CSS,JavaScript and React.
           </p>
 
           <p>
