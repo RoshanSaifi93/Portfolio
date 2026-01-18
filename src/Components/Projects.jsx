@@ -1,37 +1,40 @@
-
-
 import "./Projects.css";
 
 const projectData = [
   {
     title: "Portfolio Website",
-    description: "Personal portfolio built using React and modern CSS.",
+    description:
+      "Modern and responsive portfolio website built with React and Vite to showcase my frontend development skills and projects.",
     live: "#",
-    github: "#",
+    github: "https://github.com/RoshanSaifi93/Portfolio.git",
   },
   {
     title: "Todo App",
-    description: "Task management application using React hooks.",
+    description:
+      "A simple and interactive Todo application built using React, allowing users to add, manage, and delete tasks with a clean UI and React component architecture.",
     live: "#",
-    github: "#",
+    github: "https://github.com/RoshanSaifi93/ToDo-React-App.git",
   },
   {
     title: "Weather App",
-    description: "Weather forecast app using API and async JavaScript.",
+    description:
+      "A responsive Weather App built with React that fetches real-time weather data using OpenWeather API. Features include city search, current location weather, loading states, error handling, and mobile-friendly UI.",
     live: "#",
-    github: "#",
+    github: "https://github.com/RoshanSaifi93/Weather-App.git",
+  },
+  {
+    title: "Expense Tracker",
+    description:
+      "A simple and responsive Expense Tracker application built with React and Bootstrap. Users can add and delete expenses, track total spending, and persist data using LocalStorage.",
+    live: "#",
+    github: "https://github.com/RoshanSaifi93/Expense-Tracker.git",
   },
   {
     title: "E-commerce UI",
-    description: "Frontend UI for an e-commerce website.",
+    description:
+      "A mini Amazon homepage clone built using HTML and CSS, featuring a responsive layout, navigation bar, product sections, and footer, designed to showcase frontend UI skills.",
     live: "#",
-    github: "#",
-  },
-  {
-    title: "Blog Website",
-    description: "Responsive blog website using React and CSS.",
-    live: "#",
-    github: "#",
+    github: "https://github.com/RoshanSaifi93/Amazon-UI-Clone.git",
   },
 ];
 
@@ -51,8 +54,12 @@ const Projects = () => {
             <p>{project.description}</p>
 
             <div className="project-links">
-              <a href={project.live} target="_blank">Live</a>
-              <a href={project.github} target="_blank">GitHub</a>
+              <a href={project.live} target="_blank">
+                Live
+              </a>
+              <a href={project.github} target="_blank">
+                GitHub
+              </a>
             </div>
           </div>
         ))}
