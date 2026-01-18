@@ -1,22 +1,47 @@
-# 🌟 Roshan Saifi – Portfolio Website
+# 🌟 Roshan Saifi — Portfolio Website
 
-This is my personal portfolio website built using **React and Vite**.  
-It showcases my skills, projects, and frontend development work.
+A personal portfolio website built using **React + Vite**, showcasing my skills, projects, and contact information.
 
-## 🚀 Tech Stack
+🔗 **Live Demo:** [text](https://roshansaifi93.github.io/Portfolio/)
 
-- React
-- Vite
-- JavaScript
-- HTML
-- CSS
+---
 
-## ✨ Features
+## 🚀 About Me
 
-- Responsive design
-- Clean and modern UI
-- Project showcase
-- Contact section
+Hi! I’m **Roshan Saifi**, a frontend developer passionate about building clean, responsive and user-friendly web applications.
+
+👨‍💻 I build things using modern web technologies like React, HTML, CSS, and JavaScript.
+
+---
+
+## 🛠️ Tech Stack
+- **React**
+- **Vite**
+- **JavaScript**
+- **HTML & CSS**
+- (Add any other tools you used)
+
+---
+
+## 📌 Features
+✔️ Responsive & mobile-friendly design  
+✔️ Modern UI layout  
+✔️ Showcases your projects & skills  
+✔️ Contact section  
+✔️ Portfolio hosted with GitHub pages / Vercel / Netlify
+
+---
+
+## 📁 Project Structure
+
+/
+├── public/
+├── src/
+│ └── components/
+│ └── App.jsx
+├── index.html
+├── package.json
+└── README.md
 
 ## 📦 How to Run Locally
 
