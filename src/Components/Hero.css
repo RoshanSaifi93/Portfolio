@@ -95,8 +95,6 @@
   max-width: 650px;
 }
 
-
-/* Animations */
 @keyframes float {
   0% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
@@ -104,10 +102,17 @@
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero {
     padding: 90px 20px 60px;
@@ -141,18 +146,6 @@
     margin-bottom: 30px;
     width: 220px;
     height: 220px;
-  }
-}
-
-@keyframes blink {
-  0%,
-  50%,
-  100% {
-    opacity: 1;
-  }
-  25%,
-  75% {
-    opacity: 0;
   }
 }
 

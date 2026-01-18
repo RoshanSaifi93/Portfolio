@@ -29,7 +29,6 @@
   color: #38bdf8;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
