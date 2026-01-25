@@ -5,7 +5,7 @@ const projectData = [
     title: "Portfolio Website",
     description:
       "Modern and responsive portfolio website built with React and Vite to showcase my frontend development skills and projects.",
-    live: "#",
+    live: "https://portfolio-livid-theta-s7rahehm9q.vercel.app",
     github: "https://github.com/RoshanSaifi93/Portfolio",
   },
   {
