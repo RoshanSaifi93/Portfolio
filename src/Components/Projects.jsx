@@ -5,7 +5,7 @@ const projectData = [
     title: "Portfolio Website",
     description:
       "Modern and responsive portfolio website built with React and Vite to showcase my frontend development skills and projects.",
-    live: "#",
+    live: "https://portfolio-livid-theta-s7rahehm9q.vercel.app",
     github: "https://github.com/RoshanSaifi93/Portfolio",
   },
   {
@@ -26,7 +26,7 @@ const projectData = [
     title: "Expense Tracker",
     description:
       "A simple and responsive Expense Tracker application built with React and Bootstrap. Users can add and delete expenses, track total spending, and persist data using LocalStorage.",
-    live: "#",
+    live: "https://expense-tracker-kohl-omega-18.vercel.app/",
     github: "https://github.com/RoshanSaifi93/Expense-Tracker",
   },
   {
