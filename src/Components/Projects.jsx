@@ -33,7 +33,7 @@ const projectData = [
     title: "Calculator",
     description:
       "A React-based calculator application that lets users perform basic arithmetic operations like addition, subtraction, multiplication, and division with an intuitive, responsive interface.",
-    live: "https://amazon-ui-clone-omega.vercel.app",
+    live: "https://calculator-react-qjksugwlj-roshan-saifis-projects.vercel.app",
     github: "https://github.com/RoshanSaifi93/Calculator-React.git",
   },
 ];
