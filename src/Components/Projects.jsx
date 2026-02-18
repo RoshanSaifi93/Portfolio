@@ -19,7 +19,7 @@ const projectData = [
     title: "Weather App",
     description:
       "A responsive Weather App built with React that fetches real-time weather data using OpenWeather API. Features include city search, current location weather, loading states, error handling, and mobile-friendly UI.",
-    live: "#",
+    live: "https://weather-app-khaki-pi-59.vercel.app",
     github: "https://github.com/RoshanSaifi93/Weather-App",
   },
   {
