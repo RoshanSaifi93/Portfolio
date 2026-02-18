@@ -5,8 +5,8 @@ const projectData = [
     title: "Portfolio Website",
     description:
       "Modern and responsive portfolio website built with React and Vite to showcase my frontend development skills and projects.",
-    live: "https://portfolio-livid-theta-s7rahehm9q.vercel.app",
-    github: "https://github.com/RoshanSaifi93/Portfolio",
+    live: "https://syntecxhub-portfolio-ddfghkvxf-roshan-saifis-projects.vercel.app",
+    github: "https://github.com/RoshanSaifi93/Syntecxhub_Portfolio.git",
   },
   {
     title: "Todo App",
@@ -54,11 +54,7 @@ const Projects = () => {
             <p>{project.description}</p>
 
             <div className="project-links">
-              <a
-                href={project.live}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={project.live} target="_blank" rel="noopener noreferrer">
                 Live
               </a>
 
