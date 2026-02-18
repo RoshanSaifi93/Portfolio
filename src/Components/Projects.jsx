@@ -30,11 +30,11 @@ const projectData = [
     github: "https://github.com/RoshanSaifi93/Expense-Tracker",
   },
   {
-    title: "E-commerce UI",
+    title: "Calculator",
     description:
-      "A mini Amazon homepage clone built using HTML and CSS, featuring a responsive layout, navigation bar, product sections, and footer, designed to showcase frontend UI skills.",
-    live: "#",
-    github: "https://github.com/RoshanSaifi93/Amazon-UI-Clone",
+      "A React-based calculator application that lets users perform basic arithmetic operations like addition, subtraction, multiplication, and division with an intuitive, responsive interface.",
+    live: "https://amazon-ui-clone-omega.vercel.app",
+    github: "https://github.com/RoshanSaifi93/Calculator-React.git",
   },
 ];
 
