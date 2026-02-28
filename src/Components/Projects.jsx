@@ -9,11 +9,11 @@ const projectData = [
     github: "https://github.com/RoshanSaifi93/Syntecxhub_Portfolio.git",
   },
   {
-    title: "Todo App",
+    title: "Task Manager",
     description:
-      "A simple and interactive Todo application built using React, allowing users to add, manage, and delete tasks with a clean UI and React component architecture.",
-    live: "#",
-    github: "https://github.com/RoshanSaifi93/ToDo-React-App",
+      "A React-based Task Manager app with add, delete, search, and complete task features, using localStorage to save data on refresh.",
+    live: "https://to-do-react-app-n9pg-mb2n370si-roshan-saifis-projects.vercel.app",
+    github: "https://github.com/RoshanSaifi93/Task-Manager.git",
   },
   {
     title: "Weather App",
