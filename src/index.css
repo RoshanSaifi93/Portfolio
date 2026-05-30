@@ -86,7 +86,7 @@ button:focus-visible {
   }
 }
 
-/* Animation Classes */
+
 .fade-in {
   opacity: 0;
   transform: translateY(40px);
@@ -120,7 +120,7 @@ button:focus-visible {
   transform: translateX(0);
 }
 
-/* Mobile Animation Tuning */
+
 @media (max-width: 768px) {
   .fade-in,
   .fade-left,
